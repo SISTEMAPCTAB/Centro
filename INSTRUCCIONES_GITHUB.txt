@@ -1,29 +1,9 @@
-PAQUETE DEFINITIVO PARA GITHUB PAGES
+PAQUETE AUTOCONTENIDO PARA GITHUB PAGES
 
-1. Crea o abre el repositorio de GitHub.
-2. Sube directamente TODOS los archivos y carpetas contenidos en este ZIP a la raíz del repositorio.
-3. En Settings > Pages, selecciona Deploy from a branch.
-4. Elige la rama main y la carpeta /(root).
-5. Guarda y espera a que GitHub publique el sitio.
+1. Elimina del repositorio los archivos de la versión anterior, especialmente assets, app.js, styles.css, sw.js y manifest.webmanifest.
+2. Sube index.html, la carpeta documentos y el archivo .nojekyll a la raíz del repositorio.
+3. En Settings > Pages usa Deploy from a branch, main y /(root).
+4. Espera la publicación y abre la URL del sitio.
+5. Haz una recarga forzada con Ctrl+F5.
 
-IMPORTANTE
-- index.html debe quedar en la raíz del repositorio.
-- No subas la carpeta contenedora del ZIP; sube su contenido.
-- Conserva las carpetas assets y documentos.
-- La primera recarga tras reemplazar una versión anterior puede requerir Ctrl + F5.
-
-Contenido verificado
-- 10 módulos interactivos.
-- Ejercicios intermedios y variantes de decisión.
-- Examen aleatorio de 20 preguntas.
-- Diploma descargable.
-- Menú lateral funcional.
-- Documento fuente descargable.
-- Imágenes 13, 17 y 37 ajustadas para eliminar recuadros reservados para logotipos, sin redimensionar el contenido restante.
-
-
-DOCUMENTO FUENTE EN PDF
-El botón Documento fuente abre documentos/Plan_Integral_Emergencia_Centro_2026.pdf en una pestaña nueva. No cambie el nombre ni la ubicación del archivo.
-
-
-IMPORTANTE: Este paquete contiene únicamente el Plan en PDF. No incluye archivo Word.
+Esta versión integra dentro de index.html todos los estilos, la programación, el logotipo y las imágenes. Sólo el PDF permanece como archivo independiente en documentos/.
