@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b3d67">
+  <meta name="description" content="Guía interactiva del Plan Integral de Emergencia del Municipio de Centro 2026.">
+  <title>Guía Interactiva | Plan Integral de Emergencia Centro 2026</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="assets/img/image38.webp">
+  <link rel="stylesheet" href="styles.css?v=final-pdf-2">
+</head>
+<body>
+  <div id="startScreen" class="start-screen" aria-hidden="false">
+    <div class="start-card">
+      <img src="assets/img/image38.webp" alt="Gobierno del Estado de Tabasco y Protección Civil" class="start-logo">
+      <p class="eyebrow">Capacitación técnico-operativa</p>
+      <h1>Plan Integral de Emergencia del Municipio de Centro 2026</h1>
+      <p>Recorre 10 módulos, resuelve ejercicios de decisión, acredita un examen de 20 preguntas y genera tu diploma.</p>
+      <button id="startCourseBtn" class="btn btn-primary btn-large">Iniciar capacitación</button>
+      <p class="small muted">El avance se guarda automáticamente en este dispositivo.</p>
+    </div>
+  </div>
+
+  <div class="app-shell">
+    <aside id="sidebar" class="sidebar" aria-label="Navegación del curso">
+      <div class="brand-block">
+        <img src="assets/img/image38.webp" alt="Tabasco Protección Civil">
+        <div>
+          <strong>Centro 2026</strong>
+          <span>Guía interactiva</span>
+        </div>
+      </div>
+      <div class="progress-panel">
+        <div class="progress-label"><span>Avance</span><strong id="progressText">0%</strong></div>
+        <div class="progress-track"><div id="progressBar" class="progress-bar"></div></div>
+        <span id="progressDetail" class="small">0 de 10 módulos</span>
+      </div>
+      <nav id="navMenu"></nav>
+      <div class="sidebar-actions">
+        <a class="btn btn-ghost" href="documentos/Plan_Integral_Emergencia_Centro_2026.pdf" target="_blank" rel="noopener">Abrir plan en PDF</a>
+        <button id="resetBtn" class="btn btn-ghost danger">Reiniciar avance</button>
+      </div>
+    </aside>
+    <button id="sidebarBackdrop" class="sidebar-backdrop" type="button" aria-label="Cerrar menú"></button>
+
+    <div class="main-shell">
+      <header class="topbar">
+        <button id="menuBtn" class="icon-btn" aria-label="Abrir o cerrar menú" aria-expanded="true" aria-controls="sidebar" title="Mostrar u ocultar menú">☰</button>
+        <div class="topbar-title">
+          <strong id="viewTitle">Inicio</strong>
+          <span id="viewSubtitle">Plan Integral de Emergencia Centro 2026</span>
+        </div>
+        <button id="fullscreenBtn" class="icon-btn" aria-label="Pantalla completa">⛶</button>
+      </header>
+      <main id="mainContent" tabindex="-1"></main>
+      <footer>
+        Guía de capacitación elaborada a partir del Plan Integral de Emergencia del Municipio de Centro 2026. Uso formativo e institucional.
+      </footer>
+    </div>
+  </div>
+
+  <dialog id="imageModal" class="image-modal">
+    <button id="closeImageModal" class="modal-close" aria-label="Cerrar imagen">×</button>
+    <img id="modalImage" alt="">
+    <p id="modalCaption"></p>
+  </dialog>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="app.js?v=final-pdf-2"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+GUÍA INTERACTIVA DEL PLAN INTEGRAL DE EMERGENCIA DEL MUNICIPIO DE CENTRO 2026
+
+USO LOCAL
+1. Extraiga TODO el contenido del archivo ZIP.
+2. No abra index.html dentro de la vista del archivo comprimido.
+3. Entre a la carpeta extraída y abra index.html con Chrome o Edge.
+
+PUBLICACIÓN EN GITHUB PAGES
+1. Suba index.html, styles.css, app.js, manifest.webmanifest, sw.js, .nojekyll y la carpeta assets directamente a la raíz del repositorio.
+2. No suba únicamente index.html.
+3. Active Pages desde la rama principal y la carpeta raíz.
+
+VERSIÓN PORTABLE
+Use el archivo HTML portable incluido por separado cuando necesite abrir la guía sin carpetas ni archivos auxiliares.
+
+
+ACTUALIZACIÓN DEL MENÚ
+- El botón ☰ ahora abre y cierra el menú tanto en computadora como en teléfono.
+- En móvil, se puede cerrar tocando fuera del menú o con la tecla Escape.
+- El service worker fue actualizado para evitar que el navegador conserve una versión anterior.
+
+
+Versión refinada v7: mejora redacción didáctica, corrige tiempos, fortalece módulo de zonas protegidas y agrega ventanas desplegables para comisiones operativas.
+
+
+Versión v8: revisión pedagógica de los diez módulos y rediseño institucional del diploma. No corresponde todavía a la versión final de publicación.
+
+
+Revisión del módulo 10: orden pedagógico validado, explicación completa de simulacro de gabinete, interacción de inyectas y ejercicio secuencial de mejora.
+
+
+CORRECCIÓN PDF: El paquete no incluye ningún archivo DOCX. Los dos accesos al documento fuente abren exclusivamente documentos/Plan_Integral_Emergencia_Centro_2026.pdf.
